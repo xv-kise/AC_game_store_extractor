@@ -28,6 +28,8 @@ URLの形式やサイトのレイアウトの変更で使えなくなる可能�
 * https://location.am-all.net/alm/location/ (セガ各機種）
 * https://p.eagate.573.jp/game/facility/search/p/ (コナミ各機種)
 * https://aipri.jp/shop/ (アイプリ)
+* https://bandainamco-am.co.jp/am/vg/idolmaster-tours/location/ (アイドルマスターツアーズ)
+* https://bandainamco-am.co.jp/am/vg/jojols/location/ (ジョジョの奇妙な冒険 ラストサバイバー)
 * https://essential-truth-92204.appspot.com/mk3/ (マリオカート アーケードグランプリ)
 * https://essential-truth-92204.appspot.com/S12/ (太鼓の達人)
 * https://dcd.aikatsu.com/encore/shoplist/ (アイカツ！アンコール)
@@ -37,7 +39,3 @@ URLの形式やサイトのレイアウトの変更で使えなくなる可能�
 * https://www.carddass.com/gundam-ab/location/list.php (ガンダムアーセナルベース）
 * https://www.dbsdv.com/shoplist/list.php (ドラゴンボールスーパーダイバーズ)
 * https://www.ganbalegends.com/shop/list.php (仮面ライダーガンバレジェンズ)
-
-  ### 使えないサイト
-  * ~~https://bandainamco-am.co.jp/am/vg/idolmaster-tours/location/~~ (アイドルマスターツアーズ: バグ)
-  * ~~https://bandainamco-am.co.jp/am/vg/jojols/location/~~ (ジョジョの奇妙な冒険 ラストサバイバー: バグ)
