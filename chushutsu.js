@@ -4,7 +4,7 @@ function copytext(text){
     document.body.appendChild(textarea);
 
     textarea.select();
-    document.execCommand("copy"); //非推奨だけど謎の権限が邪魔してきてこれじゃないと使えない
+    document.execCommand("copy"); //非推奨だけど推奨の方法は権限の関係で使えない場合がある
 
     textarea.remove();
 }
@@ -35,23 +35,23 @@ wanganmaxi-official\\.com/wanganmaxi6rrplus/jp/locations/list\\?area=.*)": "dt",
     //艦これ
 };
 
-let selector;
-for (const url_s of Object.keys(selector_dic)){
+let selector; 
+for (const url_s of Object.keys(selector_dic)){ 
     if (RegExp(url_s).test(url)){
         selector = selector_dic[url_s];
     }
 }
 if (selector === undefined){
-    console.log("未対応サイト")
+    alert("未対応サイト");
 } 
 else {
     let shopnames = [];
     for (const shop of document.querySelectorAll(selector)){
         let shopn = shop.textContent;
-        shopnames.push(shopn + (shopn.at(-1) == "店" ? "" : "*"));
+        shopnames.push(shopn + (shopn.at(-1) == "店" ? "" : "*")); //店名の表記揺れ対策　場合に応じて * を「店」に置き換えたり消したりしよう
     }
-    t1=shopnames.join("\n");
+    t1 = shopnames.join("\n");
     console.log(t1);
     copytext(t1);
-    console.log("copied");
+    alert("copied");
 }
