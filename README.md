@@ -20,7 +20,7 @@ chushutsu.js をF12のコンソールで実行するか、chushutsu_bml.jsをブ
 バイパスレジャーランド藤江新館*
 ```
 
-HTMLから特定の要素を抽出しているだけなので、複数ページある場合は移動してそれぞれに実行する必要がある
+HTMLから特定の要素を抽出しているだけなので、複数ページある場合はそれぞれに移動して実行する必要がある
 
 URLの形式やサイトのレイアウトの変更で使えなくなる可能性が大いにある
 
@@ -39,5 +39,5 @@ URLの形式やサイトのレイアウトの変更で使えなくなる可能�
 * https://www.ganbalegends.com/shop/list.php (仮面ライダーガンバレジェンズ)
 
   ### 使えないサイト
-  * https://bandainamco-am.co.jp/am/vg/idolmaster-tours/location/ (アイドルマスターツアーズ: バグ)
+  * ~~https://bandainamco-am.co.jp/am/vg/idolmaster-tours/location/~~ (アイドルマスターツアーズ: バグ)
   * ~~https://bandainamco-am.co.jp/am/vg/jojols/location/~~ (ジョジョの奇妙な冒険 ラストサバイバー: バグ)
